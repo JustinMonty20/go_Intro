@@ -2,12 +2,11 @@ package main
 
 import "fmt"
 
-var deckSize int
-
 func main() {
-	card := "Ace of Spades"
-	card = "Five of Diamonds"
-	deckSize = 5
+	card := cardValue("Ace of Hearts")
 	fmt.Println(card)
-	fmt.Println(deckSize)
+}
+
+func cardValue(cardValue string) string {
+	return cardValue
 }
