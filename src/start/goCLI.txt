@@ -1,0 +1,25 @@
+Go CLI
+
+go build - complies a bunch of go source code files
+go run - compiles and executes one or two files
+go fmt - formats all the code in each file in the current director
+
+handle dependencies
+go install - compiles and "installs" a package
+go get - Downloads the raw source doe of someone else's package
+
+run test files
+go test - runs any test associated with the current project.
+
+What does package main mean ?
+
+Package == Project == Workspace
+
+2 types of packages
+Executable - generate a file that we can run
+Reusable - Code used as 'helpers' Goof place to put reusable logic.
+
+Only use main when we want to use a package that spits out an exe.
+The name of the package means if the file is an executable. MUST HAVE A FUNC CALLED MAIN
+
+Run an executable go file with ./(package name)
