@@ -1,2 +1,4 @@
 .idea
 go1.15
+bin
+pkg
