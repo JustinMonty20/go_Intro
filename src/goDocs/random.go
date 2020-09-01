@@ -11,7 +11,7 @@ func main() {
 	rand.Seed(now.UnixNano())
 
 	fmt.Println(rand.Intn(10))
-	fmt.Println(add(4,5))
+	fmt.Println(add(4, 5))
 }
 
 func add(x, y int) (sum int) {
